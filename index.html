@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Knit_List</title>
+        <link rel="stylesheet" href="css/wow-alert.css">
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="css/styles.css"
+        />
+    </head>
+    <body background='resource/img/background.jpg' alt='background'>
+        <div class='img_total'>
+            <img src='resource/img/blur.png' alt='blur'>
+            <canvas id='total' width=500 height=500>
+        </div>
+        <div class='img_partial'>
+            <img src='resource/img/blur.png' alt='blur'>
+            <canvas id='partial' width=500 height=500>
+        </div>
+        <div id='text'>
+            <p id='n1'></p>
+            <p id='n2'></p>
+            <p id='n3'></p>
+            <p id='n4'></p>
+            <p id='next'></p>
+            <p id='time'><p>
+            <p id='enter'></p>
+            <p id='ctrl'></p>
+        </div>
+        <div class='btn_time'>
+            <input id='add_time' type='button' value='+' onclick='add()'>
+            <input id='sub_time' type='button' value='-' onclick='sub()'>
+        </div>
+        <div class='btn_control'>
+            <input id='start_stop' type='button' value='Start' onclick='main()'>
+            <p id='space'>press space</p>
+        </div>
+        <div class='drop_zone' ondrop='preprocess(event,0)' ondragover='return false'>
+            <p id='drop'>Drop file here</p>
+            <div class='file_input'>
+                <button class='btn_file_input'>Load</button>
+                <input id='file' type='file' accept='.txt'/>
+            </div>
+        </div>
+        <div>
+            <p id='step_p'>Step</p>
+            <input id='step_input' type='text' value='1'>
+        </div>
+        <div class='w3-light-grey w3-round'>
+            <div id='bar' class="w3-container w3-green w3-round">
+        </div>
+        <script src="js/jquery-3.4.0.min.js"></script>
+        <script src="js/wow-alert.js"></script>
+        <script src="js/howler.js"></script>
+        <script src="js/NoSleep.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

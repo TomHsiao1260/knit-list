@@ -1,0 +1,244 @@
+body {background-size:cover;}
+
+.img_total{
+    position:absolute;
+    width:25%;
+    padding-top:25%;
+    left:72%;
+    top:10%;
+}
+
+.img_partial{
+    position:absolute;
+    width:25%;
+    padding-top:25%;
+    left:45%;
+    top:10%;
+}
+
+.img_total img,
+.img_total canvas,
+.img_partial img,
+.img_partial canvas{
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+
+#n1{
+    position:absolute;
+    left:11.1%;
+    top:87%;
+    font-size:1.5vw;
+    color: rgba(255,255,0,0.5);
+    text-align: center;
+}
+
+#n2{
+    position:absolute;
+    left:8.5%;
+    top:75%;
+    font-size:2.5vw;
+    color: rgba(255,255,0,0.5);
+    text-align: center;
+}
+
+#n3{
+    position:absolute;
+    left:6%;
+    top:44%;
+    font-size:3.5vw;
+    color:#ffff00;
+    text-align: center;
+}
+
+#n4{
+    position:absolute;
+    left:7%;
+    top:7%;
+    font-size:3vw;
+    color:#99ccff;
+    text-align: center;
+}
+
+#next{
+    position:absolute;
+    left:12.5%;
+    top:2%;
+    font-size:2vw;
+    color:#99ccff;
+    text-align: center;
+}
+
+#enter{
+    position:absolute;
+    font-size:1.5vw;
+    left:2%;
+    top:12%;
+    color:rgba(255,255,255,0.3);
+}
+
+#ctrl{
+    position:absolute;
+    font-size:1.5vw;
+    left:4%;
+    top:78%;
+    color:rgba(255,255,255,0.3);
+}
+
+#frame{
+    position:absolute;
+    background-color: transparent;
+    border-top: 1.5px #ccccb3 dashed;
+    border-bottom: 1.5px #ccccb3 dashed;
+    left:1%;
+    top:37%;
+    width:28%;
+    height:33%;
+}
+
+#time{
+    position: absolute;
+    top:61%;
+    left:13.5%;
+    font-size:1.5vw;
+    color:#b8b894;
+    font-weight: bold;
+}
+
+.btn_time input{
+    color:#c2c2a3;
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+#add_time{
+    position:absolute;
+    font-size:1.5vw;
+    left:24.6%;
+    top:58.3%;
+}
+
+#sub_time{
+    position:absolute;
+    font-size:2vw;
+    left:3.5%;
+    top:57.4%;
+}
+
+.btn_control input,
+.btn_control p{
+    height:8%;
+    width:24%;
+    cursor: pointer;
+    text-align: center;
+}
+
+#start_stop{
+    position:absolute;
+    font-size:2.5vw;
+    color:#ffffcc;
+    border: 1%;
+    left:73%;
+    top:83%;
+    background-color: rgba(255,255,255,0.08);
+}
+
+#space{
+    position:absolute;
+    font-size:1.5vw;
+    left:73%;
+    top:89%;
+    color:rgba(255,255,255,0.5);
+}
+
+
+.drop_zone{
+    position:absolute;
+    background-color:#0f0f0a; 
+    border:#999 5px dashed;
+    width:15%; 
+    height:15%;
+    padding:3%;
+    font-size:18px;
+    left:4%;
+    top:50%;
+}
+
+.drop_zone p{
+    position:relative;
+    color:#999; 
+    font-size:2vw;
+    text-align: center;
+}
+
+.file_input{
+    width: 70%;
+    height: 55%;
+    overflow: hidden;
+    position: relative;
+    left:30%;
+    top:0;
+}
+.file_input > input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.file_input > .btn_file_input {
+    font-size: 1.2vw;
+    font-weight:bold;
+    display: inline-block;
+    color:#3d3d29;
+    background-color:#d6d6c2;
+    width: 65%;
+    height: 55%;
+}
+
+#step_p{
+    position: absolute;
+    top:35%;
+    left:11%;
+    font-size:2.5vw;
+    color:#f2f2f2;
+}
+
+#step_input{
+    position: absolute;
+    top:40%;
+    left:17%;
+    height: 6%;
+    width: 7%;
+    font-size:2.5vw;
+    color:#f2f2f2;
+    background-color:Transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.w3-light-grey{
+    position: absolute;
+    top:60%;
+    left:5.9%;
+    width:18%;
+}
+
+#bar{
+    height:0.3vw;
+    width:0%;
+}
+
+.w3-light-grey{color:#000!important;background-color:#0f0f0a!important}
+.w3-container:after,.w3-container:before,
+.w3-panel:after,.w3-panel:before,
+.w3-row:after,.w3-row:before,
+.w3-row-padding:after,.w3-row-padding:before,
+.w3-green{color:#fff!important;background-color:#00ff55!important}
+.w3-round{border-radius:16px}
+
+

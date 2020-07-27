@@ -1,0 +1,19 @@
+.w3-light-grey{
+    position: absolute;
+    top:60%;
+    left:5.9%;
+    width:18%;
+}
+
+#bar{
+    height:0.3vw;
+    width:0%;
+}
+
+.w3-light-grey{color:#000!important;background-color:#0f0f0a!important}
+.w3-container:after,.w3-container:before,
+.w3-panel:after,.w3-panel:before,
+.w3-row:after,.w3-row:before,
+.w3-row-padding:after,.w3-row-padding:before,
+.w3-green{color:#fff!important;background-color:#00ff55!important}
+.w3-round{border-radius:16px}
