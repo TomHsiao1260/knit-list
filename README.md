@@ -2,8 +2,8 @@ Knitting List
 ======
 Knitting List： 
 <a href="https://tomhsiao1260.github.io/knit_list/" target="_blank">https://tomhsiao1260.github.io/knit_list/</a>
-Knitting List： https://tomhsiao1260.github.io/knit_list/
-Color Game： https://github.com/TomHsiao1260/knit_color/
+Color Game：
+<a href="https://github.com/TomHsiao1260/knit_color/" target="_blank">https://github.com/TomHsiao1260/knit_color/</a>
 
 ![Alt text](/resource/img/screenshot.png)
 
