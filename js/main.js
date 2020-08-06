@@ -1,3 +1,5 @@
+// console.log(start+timeID)
+// sound+nosleep
 var element = function(id){
     return document.getElementById(id);
 }
@@ -5,11 +7,11 @@ var e_class = function(id){
     return document.getElementsByClassName(id);
 }
 
-var noSleep = new NoSleep();
-document.addEventListener('click', function enableNoSleep() {
-  document.removeEventListener('click', enableNoSleep, false);
-  noSleep.enable();
-}, false);
+// var noSleep = new NoSleep();
+// document.addEventListener('click', function enableNoSleep() {
+//   document.removeEventListener('click', enableNoSleep, false);
+//   noSleep.enable();
+// }, false);
 
 e_class('btn_time')[0].style.display = 'none';
 e_class('img_total')[0].children[0].style.display = 'none';
