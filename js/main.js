@@ -209,7 +209,7 @@ async function process(){
         element('start_stop').style.color = '#ffffcc';
     }
 
-    sound(n_step-3);
+    //sound(n_step-3);
     progress_bar();
 
     next_step = false;
