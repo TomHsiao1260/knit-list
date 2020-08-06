@@ -1,5 +1,3 @@
-// console.log(start+timeID)
-// sound+nosleep
 var element = function(id){
     return document.getElementById(id);
 }
@@ -141,7 +139,6 @@ function stop(){
 }
 
 function start(){
-    console.log('start');
     if (typeof step === 'undefined'){
         alert('Please load the step file first.','OK');
         return;
@@ -211,7 +208,7 @@ async function process(){
         element('start_stop').style.color = '#ffffcc';
     }
 
-    //sound(n_step-3);
+    sound(n_step-3);
     progress_bar();
 
     next_step = false;
@@ -269,7 +266,6 @@ function progress_bar() {
   function frame() {
     if (T_bar <= 0||enable==='stop'||next_step||pre_step) {
         clearInterval(id);
-        console.log('timeID clear');
     } else {
         e.style.width = T_bar + '%';
         T_bar = T_bar - 10/t_interval;
