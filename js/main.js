@@ -266,6 +266,7 @@ function progress_bar() {
   function frame() {
     if (T_bar <= 0||enable==='stop'||next_step||pre_step) {
         clearInterval(id);
+        console.log('timeID clear');
     } else {
         e.style.width = T_bar + '%';
         T_bar = T_bar - 10/t_interval;
