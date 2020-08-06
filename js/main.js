@@ -139,6 +139,7 @@ function stop(){
 }
 
 function start(){
+    console.log('start');
     if (typeof step === 'undefined'){
         alert('Please load the step file first.','OK');
         return;
