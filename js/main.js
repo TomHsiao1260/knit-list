@@ -236,7 +236,8 @@ async function process(){
 }
 
 function sound(n){
-  path="resource/sound/English/";
+//   path="resource/sound/English/";
+  path="resource/sound/Chinese/";
   var sound = new Howl({
     src: [path+Number(step[n])+".mp3"],
     onend: function(){
