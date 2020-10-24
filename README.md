@@ -1,6 +1,6 @@
 Knitting List
 ======
-Knitting List： https://tomhsiao1260.github.io/knitlist/
+Knitting List： https://tomhsiao1260.github.io/knit-list/
 
 
 ![Alt text](/resource/img/screenshot.png)
