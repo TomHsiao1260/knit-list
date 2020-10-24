@@ -5,8 +5,8 @@ Knitting List： https://tomhsiao1260.github.io/knit-list/
 
 ![Alt text](/resource/img/screenshot.png)
 
-你可以使用 Knitting List 搭配一條線和一個圓形木框，編織出第一個屬於自己的人臉紡織藝術品！
-Knitting List 是個會將 [指定 txt 檔](/result.txt) 裡的數字依序顯示和朗讀出來的網頁，每個數字 (1~200) 依序代表著圓週邊上的某個位置點。檔案裡的數字經過演算法事先的計算與設計，始得使用者只要將線依序繞到 Knitting List 所指定的腳位(在圓形木框週邊上的某個鉤鉤)，就能成功用線編織出一幅屬於自己的人臉肖像！另外，我也在圓形框上塗了事先定義的色碼以加快在繞線時查找這些腳位的時間。可以到下方的 [連結](https://github.com/TomHsiao1260/knit_color/)，有個小遊戲可以訓練以加快找出數字對應到特定腳位的時間～
+使用 Knitting List 網頁搭配一條線和一個圓形木框，編織出第一個屬於自己的人臉紡織藝術品！
+Knitting List 是個會將 [指定 txt 檔](/result.txt) 裡的數字依序顯示和朗讀出來的網頁，每個數字 (1~200) 依序代表著圓週邊上的某個位置點。檔案裡的數字經過演算法事先的計算與設計，只要將線依序繞到 Knitting List 所指定的腳位(在圓形木框週邊上的某個鉤鉤)，就能成功用線編織出一幅屬於自己的人臉肖像！另外，在圓形框上塗了事先定義的色碼以加快在繞線時查找這些腳位的時間。可以到下方的 [連結](https://github.com/TomHsiao1260/knit_color/)，有個小遊戲可以訓練以加快找出數字對應到特定腳位的時間～
 
 Color Game：https://github.com/TomHsiao1260/knit-color/
 
